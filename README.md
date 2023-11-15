@@ -1,7 +1,8 @@
 # Forsit E-commerce Admin Dashboard - Vue
 
-## Demo Url
-    https://drive.google.com/file/d/1IDHpqfwrsBi17FGqjop6Vc0KZy6kn2xl/view?usp=sharing
+## Demo video and screenshots
+    1- https://drive.google.com/file/d/1IDHpqfwrsBi17FGqjop6Vc0KZy6kn2xl/view?usp=sharing
+    2- Go to snapshots folder for screenshots.
 
 ## Challenges and Solutions
     - The challenge involved designing a clean dashboard to display order, revenue, and inventory charts and tables effectively.
