@@ -13,6 +13,8 @@
 
 <script>
 import Chart from "chart.js/auto";
+import 'chartjs-adapter-date-fns';
+import { enUS } from 'date-fns/locale';
 
 export default {
   name: "GradientLineChart",
@@ -73,6 +75,9 @@ export default {
           intersect: false,
           mode: "index",
         },
+        // plugins: {
+        //   tooltip: false
+        // },
         scales: {
           y: {
             grid: {
@@ -95,6 +100,15 @@ export default {
             },
           },
           x: {
+            type: "time",
+            time: {
+              unit: 'month'
+            },
+            adapters: {
+              date: {
+                locale: enUS,
+              },
+            },
             grid: {
               drawBorder: false,
               display: false,
